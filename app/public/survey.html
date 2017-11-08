@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Survey | Friend Finder</title>
+
+		<!-- CSS Reset Sheet -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<!-- Google Fonts -->
+		<!-- Font Awesome -->
+		<script src="https://use.fontawesome.com/a61a0aadbe.js"></script>
+		<!-- CSS Sheet -->
+		<!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+	</head>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<div class="container">
+					<h1 class="display-4 text-center">Survey Questions</h1>
+
+					<hr>
+
+					<form>
+						<div class="form-group">
+							<label for="nameInput">Name (Required)</label>
+							<input type="text" class="form-control" id="nameInput" placeholder="Enter your name here">
+						</div>
+						<div class="form-group">
+							<label for="profilePic">Profile Picture (Optional)</label>
+							<input type="text" class="form-control" id="profilePic" placeholder="Link to the image">
+						</div>
+					</form>
+
+					<hr>
+
+					<form>
+						<div class="form-group">
+							<label class="lead" for="question1">Question 1</label>
+							<p>Sample Question</p>
+							<select class="form-control surveyQuestions" id="question1">
+								<option data-scoreValue="0">Please select an answer</option>
+								<option data-scoreValue="1">Strongly Disagree</option>
+								<option data-scoreValue="2">Disagree</option>
+								<option data-scoreValue="3">Neutral</option>
+								<option data-scoreValue="4">Agree</option>
+								<option data-scoreValue="5">Strongly Agree</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label class="lead" for="question2">Question 2</label>
+							<p>Sample Question</p>
+							<select class="form-control surveyQuestions" id="question2">
+								<option data-scoreValue="0">Please select an answer</option>
+								<option data-scoreValue="1">Strongly Disagree</option>
+								<option data-scoreValue="2">Disagree</option>
+								<option data-scoreValue="3">Neutral</option>
+								<option data-scoreValue="4">Agree</option>
+								<option data-scoreValue="5">Strongly Agree</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label class="lead" for="question3">Question 3</label>
+							<p>Sample Question</p>
+							<select class="form-control surveyQuestions" id="question3">
+								<option data-scoreValue="0">Please select an answer</option>
+								<option data-scoreValue="1">Strongly Disagree</option>
+								<option data-scoreValue="2">Disagree</option>
+								<option data-scoreValue="3">Neutral</option>
+								<option data-scoreValue="4">Agree</option>
+								<option data-scoreValue="5">Strongly Agree</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label class="lead" for="question4">Question 4</label>
+							<p>Sample Question</p>
+							<select class="form-control surveyQuestions" id="question4">
+								<option data-scoreValue="0">Please select an answer</option>
+								<option data-scoreValue="1">Strongly Disagree</option>
+								<option data-scoreValue="2">Disagree</option>
+								<option data-scoreValue="3">Neutral</option>
+								<option data-scoreValue="4">Agree</option>
+								<option data-scoreValue="5">Strongly Agree</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label class="lead" for="question5">Question 5</label>
+							<p>Sample Question</p>
+							<select class="form-control surveyQuestions" id="question5">
+								<option data-scoreValue="0">Please select an answer</option>
+								<option data-scoreValue="1">Strongly Disagree</option>
+								<option data-scoreValue="2">Disagree</option>
+								<option data-scoreValue="3">Neutral</option>
+								<option data-scoreValue="4">Agree</option>
+								<option data-scoreValue="5">Strongly Agree</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label class="lead" for="question6">Question 6</label>
+							<p>Sample Question</p>
+							<select class="form-control surveyQuestions" id="question6">
+								<option data-scoreValue="0">Please select an answer</option>
+								<option data-scoreValue="1">Strongly Disagree</option>
+								<option data-scoreValue="2">Disagree</option>
+								<option data-scoreValue="3">Neutral</option>
+								<option data-scoreValue="4">Agree</option>
+								<option data-scoreValue="5">Strongly Agree</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label class="lead" for="question7">Question 7</label>
+							<p>Sample Question</p>
+							<select class="form-control surveyQuestions" id="question7">
+								<option data-scoreValue="0">Please select an answer</option>
+								<option data-scoreValue="1">Strongly Disagree</option>
+								<option data-scoreValue="2">Disagree</option>
+								<option data-scoreValue="3">Neutral</option>
+								<option data-scoreValue="4">Agree</option>
+								<option data-scoreValue="5">Strongly Agree</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label class="lead" for="question8">Question 8</label>
+							<p>Sample Question</p>
+							<select class="form-control surveyQuestions" id="question8">
+								<option data-scoreValue="0">Please select an answer</option>
+								<option data-scoreValue="1">Strongly Disagree</option>
+								<option data-scoreValue="2">Disagree</option>
+								<option data-scoreValue="3">Neutral</option>
+								<option data-scoreValue="4">Agree</option>
+								<option data-scoreValue="5">Strongly Agree</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label class="lead" for="question9">Question 9</label>
+							<p>Sample Question</p>
+							<select class="form-control surveyQuestions" id="question9">
+								<option data-scoreValue="0">Please select an answer</option>
+								<option data-scoreValue="1">Strongly Disagree</option>
+								<option data-scoreValue="2">Disagree</option>
+								<option data-scoreValue="3">Neutral</option>
+								<option data-scoreValue="4">Agree</option>
+								<option data-scoreValue="5">Strongly Agree</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label class="lead" for="question10">Question 10</label>
+							<p>Sample Question</p>
+							<select class="form-control surveyQuestions" id="question10">
+								<option data-scoreValue="0">Please select an answer</option>
+								<option data-scoreValue="1">Strongly Disagree</option>
+								<option data-scoreValue="2">Disagree</option>
+								<option data-scoreValue="3">Neutral</option>
+								<option data-scoreValue="4">Agree</option>
+								<option data-scoreValue="5">Strongly Agree</option>
+							</select>
+						</div>
+					</form>
+
+					<button type="submit" class="btn btn-block btn-success" id="submitSurvey"><h4>Submit</h4></button>
+
+					<p class="text-center"><a href="/">Back to home</a></p>
+				</div>
+			</div>
+
+			<footer class="footer">
+				<div class="container">
+					<p class="text-center"><a href="/api/friends">API Friends List</a> | <a href="https://github.com/NES-Elliott/Friend-Finder-App">GitHub Repo</a></p>
+				</div>
+			</footer>
+		</div>
+
+		<script type="text/javascript">
+			var profilePic;
+			var userResponse = [];
+
+			// Name & Question Validation
+			function validateForm() {
+				var isValid = true;
+
+				if ($("#nameInput").val() === "") isValid = false;
+				$(".surveyQuestions").each(function() {
+					if ($(this).find("option:selected").attr("data-scoreValue") === "0") isValid = false;
+				});
+				return isValid;
+			};
+
+			// Picture Validation
+			function validPicture(pictureInput) {
+				var hasPicture = true;
+				var pictureURL = pictureInput.match(/\.(jpeg|jpg|gif|png)$/);
+				if (pictureURL === null) {
+					hasPicture = false;
+					profilePic = "https://t3.ftcdn.net/jpg/00/64/67/52/240_F_64675209_7ve2XQANuzuHjMZXP3aIYIpsDKEbF5dD.jpg";
+				} else {
+					profilePic = pictureInput;	
+				};
+				return hasPicture;
+			};
+
+			// New User Posting
+			function newUserPost() {
+				var newUser = {
+					"name": $("#nameInput").val(),
+					"pic": profilePic,
+					"score": userResponse.join(",")
+				};
+
+				// Had to pass the score in as a string instead of as an array. When I got my object back, the score key kept coming out as "score[]" and I didn't know how to call it, so this is the work around.
+
+				// I am unable to require the fs package in inline JS because require is a node thing. Unless I used session storage and some weird timings, I'm unsure how to get the data to append to the friends.js file. If the server shuts off, the data is lost.
+
+				$.post("/api/friends", newUser);
+			};
+
+			// Submit Button
+			$("#submitSurvey").on("click", function() {
+				if (validateForm()) {
+					$(".surveyQuestions").each(function() {
+						userResponse.push($(this).find("option:selected").attr("data-scoreValue"));
+					});
+					validPicture($("#profilePic").val());
+					newUserPost();
+					alert("Thank you for filling out the survey!");
+					window.location.href = "/";
+				} else {
+					alert("Please fill out the form before attempting to continue. Thank You.");
+				};
+
+				if (validPicture($("#profilePic").val())) {
+					alert("Picture updated");
+				} else if (validateForm() && !validPicture($("#profilePic").val())) {
+					alert("Since you didn't submit a picture link, we have provided the default icon. You can update it later in account settings");
+				};
+			});
+		</script>
+	</body>
+</html>
